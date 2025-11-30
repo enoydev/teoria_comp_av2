@@ -1,0 +1,31 @@
+### Go Merge Sort (Recursivo) - Tempos de Execução (nanosegundos)
+Tamanho N  | Tipo Entrada    | Média (ns)      | Desvio Padrão (ns) | Ordenado? 
+------------------------------------------------------------------
+10         | aleatorio       | 470.00          | 76.92               | true      
+10         | ordenado        | 188.33          | 57.18               | true      
+10         | inverso         | 409.67          | 652.75              | true      
+100        | aleatorio       | 5065.70         | 2492.63             | true      
+100        | ordenado        | 3439.00         | 1316.80             | true      
+100        | inverso         | 2466.33         | 888.61              | true      
+1000       | aleatorio       | 67645.20        | 50802.20            | true      
+1000       | ordenado        | 44707.80        | 2650.66             | true      
+1000       | inverso         | 34646.77        | 14666.64            | true      
+5000       | aleatorio       | 337010.67       | 68395.77            | true      
+5000       | ordenado        | 154171.13       | 43300.25            | true      
+5000       | inverso         | 157031.77       | 38796.35            | true      
+10000      | inverso         | 328663.60       | 50025.90            | true      
+10000      | aleatorio       | 687277.60       | 68413.50            | true      
+10000      | ordenado        | 329371.97       | 48033.22            | true      
+50000      | aleatorio       | 4124793.53      | 189813.16           | true      
+50000      | ordenado        | 1928082.40      | 141621.83           | true      
+50000      | inverso         | 2018123.03      | 170757.17           | true      
+100000     | aleatorio       | 9086080.97      | 261034.26           | true      
+100000     | ordenado        | 4349891.27      | 344799.41           | true      
+100000     | inverso         | 4672176.10      | 345706.88           | true      
+200000     | aleatorio       | 19556911.53     | 584945.62           | true      
+200000     | ordenado        | 9404373.30      | 618190.54           | true      
+200000     | inverso         | 9955678.27      | 630339.61           | true      
+500000     | ordenado        | 21772036.10     | 993579.66           | true      
+500000     | inverso         | 26973164.67     | 3146776.88          | true      
+500000     | aleatorio       | 51151455.27     | 2286898.28          | true      
+------------------------------------------------------------------
